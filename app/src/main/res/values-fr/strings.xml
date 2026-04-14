@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TeamApp</string>
+    <string name="score_value">Score : %1$d</string>
+
+    <string name="add_one">Ajouter 1</string>
+    <string name="add_three">Ajouter 3</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="help">Aide</string>
+</resources>
+
+    <!--
+        French string resources for TeamApp.
+        This file overrides default English strings when the device language is set to French.
+    -->

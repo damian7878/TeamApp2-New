@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TeamApp</string>
+    <string name="score_value">Score: %1$d</string>
+
+    <string name="add_one">Add 1</string>
+    <string name="add_three">Add 3</string>
+    <string name="reset">Reset</string>
+    <string name="help">Help</string>
+</resources>
+
+    <!--
+    strings.xml
+
+    Purpose:
+    Stores text values used in the application.
+
+    Functionality:
+    - Defines the app name.
+    - Defines the score display format (e.g., "Score: 5").
+
+    Benefits:
+    - Keeps text separate from code.
+    - Makes it easier to update or localize text.
+    -->

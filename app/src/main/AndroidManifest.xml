@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TeamApp">
+
+        <activity android:name=".HelpActivity" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
+
+    <!--
+    AndroidManifest.xml
+
+    Purpose:
+    Defines the structure and configuration of the application.
+
+    Functionality:
+    - Declares application settings such as theme and label.
+    - Registers activities used in the app:
+      - MainActivity (launcher activity)
+      - HelpActivity
+    - Defines the entry point of the app using intent-filter.
+
+    Key Concepts:
+    - Application configuration
+    - Activity registration
+    - App launch setup
+    -->

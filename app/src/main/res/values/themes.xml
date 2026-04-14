@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TeamApp" parent="Theme.AppCompat.Light.NoActionBar" />
+
+</resources>
+
+    <!-- App theme definition for TeamApp.
+             Inherits from AppCompat Light theme with no action bar for a clean UI layout. -->

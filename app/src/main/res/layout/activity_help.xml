@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press Add 1 or Add 3 to increase the score. Press Reset to start again."
+        android:textSize="18sp"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--
+    activity_main.xml
+
+    Purpose:
+    Defines the layout for the main screen of the application.
+
+    Functionality:
+    - Displays the current score using a TextView.
+    - Provides four buttons:
+      1. Add 1 – increases score by 1
+      2. Add 3 – increases score by 3
+      3. Reset – resets score to 0
+      4. Help – opens the help screen
+
+    Layout:
+    - Uses ConstraintLayout for positioning UI elements.
+    - Elements are vertically aligned and centered.
+    -->
