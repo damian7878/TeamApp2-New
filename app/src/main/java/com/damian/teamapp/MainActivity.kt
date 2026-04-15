@@ -33,6 +33,8 @@ class MainActivity : AppCompatActivity() {
     private var score = 0
     private lateinit var scoreText: TextView
 
+    private var winPlayer: android.media.MediaPlayer? = null
+
     companion object {
         private const val SCORE_KEY = "score_key"
         private const val WIN_SCORE = 15
@@ -89,7 +91,17 @@ class MainActivity : AppCompatActivity() {
 
     private fun checkWin() {
         if (score >= WIN_SCORE) {
-            // You can add a toast or sound later
+
+            if (winPlayer == null) {
+                winPlayer = android.media.MediaPlayer.create(this, R.raw.win_sound)
+            }
+
+            winPlayer?.start()
+
+            winPlayer?.setOnCompletionListener {
+                it.release()
+                winPlayer = null
+            }
         }
     }
 
